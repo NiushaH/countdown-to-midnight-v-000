@@ -1,7 +1,7 @@
 #write your code here
 
 def countdown(number)
-  number = Integer
+  number = Fixnum
   while number >= 0
     puts "#{number} SECOND(S)!"
     number -= 1
